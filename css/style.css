@@ -1,0 +1,58 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Mulish";
+  font-style: normal;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .logo-img {
+  background-image: url(../img/Course\ topics.svg);
+  width: 124px;
+  height: 38px;
+  background-repeat: no-repeat;
+}
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header ul li {
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #001A49;
+}
+header ul li:hover {
+  color: #000000;
+}
+header ul li:not(:last-child) {
+  margin-right: 37px;
+}
+header .header-btn {
+  background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+  border-radius: 33px;
+  padding: 15px 28px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+header .header-btn:hover {
+  background: linear-gradient(44.11deg, #7ca3c8 15.75%, #294d7c 84.63%);
+}
+header .header-btn:active {
+  background: linear-gradient(44.11deg, #a2bbd2 15.75%, #7298ca 84.63%);
+}

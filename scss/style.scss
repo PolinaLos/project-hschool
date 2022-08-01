@@ -1,0 +1,66 @@
+$color-font-default: #001A49;
+$color-font-hover: #000000;
+$color-font-white: #ffffff;
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+
+%flex-items {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header {
+    @extend %flex-items;
+    align-items: center;
+
+    .logo-img {
+        background-image: url(../img/Course\ topics.svg);
+        width: 124px;
+        height: 38px;
+        background-repeat: no-repeat;
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            list-style-type: none;
+            font-weight: 700;
+            font-size: 16px;
+            color: $color-font-default;
+
+
+        }
+
+        li:hover {
+            color: $color-font-hover;
+        }
+
+        li:not(:last-child) {
+            margin-right: 37px;
+        }
+    }
+
+    .header-btn {
+        background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+        border-radius: 33px;
+        padding: 15px 28px;
+        font-weight: 700;
+        font-size: 16px;
+        color: $color-font-white;
+    }
+
+    .header-btn:hover {
+        background: linear-gradient(44.11deg, #7ca3c8 15.75%, #294d7c 84.63%);
+    }
+
+    .header-btn:active {
+        background: linear-gradient(44.11deg, #a2bbd2 15.75%, #7298ca 84.63%);
+    }
+}
