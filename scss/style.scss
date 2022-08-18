@@ -24,6 +24,9 @@ header {
         width: 124px;
         height: 38px;
         background-repeat: no-repeat;
+        margin-left: 160px;
+        margin-top: 43px;
+        margin-right: 88px;
     }
 
     ul {
@@ -34,7 +37,8 @@ header {
             font-weight: 700;
             font-size: 16px;
             color: $color-font-default;
-
+            margin-top: 52px;
+            margin-left: 33px;
 
         }
 
@@ -42,9 +46,7 @@ header {
             color: $color-font-hover;
         }
 
-        li:not(:last-child) {
-            margin-right: 37px;
-        }
+
     }
 
     .header-btn {
@@ -54,6 +56,9 @@ header {
         font-weight: 700;
         font-size: 16px;
         color: $color-font-white;
+        margin-top: 52px;
+        margin-left: 249px;
+        margin-right: 184px;
     }
 
     .header-btn:hover {
@@ -62,5 +67,174 @@ header {
 
     .header-btn:active {
         background: linear-gradient(44.11deg, #a2bbd2 15.75%, #7298ca 84.63%);
+    }
+}
+
+.section-1 {
+    display: flex;
+
+    .h1-section-1 {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 60px;
+        color: #001A49;
+        margin-left: 160px;
+        margin-top: 175px;
+        width: 550px;
+    }
+
+    .p-section {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #4F596A;
+        margin-left: 160px;
+        margin-top: 20px;
+        width: 560px;
+    }
+
+    .main-btn {
+        background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+        border-radius: 33px;
+        font-weight: 700;
+        font-size: 20px;
+        color: $color-font-white;
+        margin-left: 160px;
+        margin-top: 72px;
+        width: 121px;
+        height: 30px;
+        padding: 22px 42px;
+    }
+
+    .main-btn:hover {
+        background: linear-gradient(44.11deg, #7ca3c8 15.75%, #294d7c 84.63%);
+    }
+
+    .main-btn:active {
+        background: linear-gradient(44.11deg, #a2bbd2 15.75%, #7298ca 84.63%);
+    }
+
+
+    .main-img {
+        background-image: url(../img/Group\ 7.svg);
+        width: 690px;
+        height: 460px;
+        background-repeat: no-repeat;
+        margin-top: 200px;
+        margin-left: 167px;
+    }
+}
+
+.section-2 {
+    position: relative;
+
+    .img-circle {
+        background-image: url(../img/Side\ Shape\ \(2\).svg);
+        width: 288px;
+        height: 288px;
+        position: absolute;
+    }
+
+    .div-section-2 {
+        width: 1120px;
+        height: 172px;
+        border-radius: 20px;
+        border: 1px solid #E7EAEB;
+        margin-top: 270px;
+        margin-left: 160px;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        z-index: 1;
+        background-color: #ffffff;
+
+        h1 {
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 40px;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            color: #4F596A;
+            text-align: center;
+        }
+
+        .vertical-line {
+            width: 1px;
+            height: 112px;
+            background-color: #E7EAEB;
+            margin: auto;
+        }
+
+        .width-item {
+            width: 370px;
+        }
+    }
+
+}
+
+.section-3 {
+    h1 {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 46px;
+        text-align: center;
+        color: #001A49;
+        margin-top: 228px;
+    }
+
+    .main-plus-p {
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 506px;
+        color: #4F596A;
+        width: 560px;
+    }
+    .plus-item p {
+        font-weight: 400;
+        font-size: 20px;
+        color: #4F596A;
+    }
+    .plus-item h3 {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 24px;    
+        color: #001A49;
+        
+    }
+    .plus-item{
+        background: linear-gradient(44.11deg, #cfe8ff15 15.75%, #9ac2fb25 84.63%);
+border-radius: 21px;
+width: 1120px;
+margin-top: 65px;
+margin-left: 160px;
+display: flex;
+h3{
+    font-family: 'Montserrat';
+font-weight: 700;
+font-size: 24px;
+color: #001A49;
+padding-top: 39px;
+}
+p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #4F596A;
+padding-bottom: 41px;
+}
+    }
+    .img-plus{
+        background-image: url(../img/Group\ 8.svg);
+        width: 64px;
+        height: 64px;
+        padding:  60px 50px ;
+        background-repeat: no-repeat;
+        margin-top: 39px;
+        margin-left: 46px;
     }
 }
